@@ -18,7 +18,8 @@ def test_pipeline():
     assert type(pipeline()) is int
 
 
-test_primes()
-test_length()
-test_control_sum()
-test_pipeline()
+if __name__ == "__main__":
+    test_primes()
+    test_length()
+    test_control_sum()
+    test_pipeline()
